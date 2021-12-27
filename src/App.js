@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
+import Biographie from './components/Biographie';
 import './app.scss';
 
 class App extends Component {
@@ -12,6 +13,8 @@ class App extends Component {
     return (
       <>
         <Header title={this.state.titre} />
+        <hr></hr>
+        <Biographie />
       </>
     );
   }
