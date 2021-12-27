@@ -1,19 +1,24 @@
 header{
     height: 100vh;
+    margin: 0;
+    padding: 0;
     background: url('../images/bg-header.jpg') no-repeat center;
     background-size: cover;
     background-position: center center;
-    display: grid;
+    clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 100%, 0 0);
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-content: space-around;
     position: relative;
+    top: -24px;
 
     h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-top: 25px;
+        margin-top: 20px;
+        padding-top: 45px;
+        padding-bottom:35px;
         color: $color4;
         text-shadow: 1px 1px 3px $color2;
     }
@@ -51,6 +56,7 @@ header{
         width: 100%;
         max-width: 100%;
         background-position: top;
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         h1 {
             text-align: center
         }
