@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-$color1: rgb(216, 193, 193);
+$color1: #D8CEC2;
+$color2: #1D253C;
+$color3: #F3D16A;
+$color4: #8C878B;
+$color5: #7C9400;
 $police1: "Roboto", "Sans-serif";
 
 
@@ -14,7 +18,7 @@ $police1: "Roboto", "Sans-serif";
 body {
     background: $color1;
     font-size: 16px;
-    color: $color1;
+    color: $color3;
     font-family: $police1;
 }
 a {
