@@ -21,6 +21,10 @@ header{
             list-style-type: none;
             margin-right: 2rem;
             padding-top: 25px;
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+            }
         }
     }
     h2 {
